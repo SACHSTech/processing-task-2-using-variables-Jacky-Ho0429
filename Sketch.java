@@ -8,7 +8,7 @@ public class Sketch extends PApplet {
    */
   public void settings() {
 	//Sets Size Of Canvas
-    size(800, 800);
+    size(500, 500);
   }
 
   //Sets Up Inital Setup
