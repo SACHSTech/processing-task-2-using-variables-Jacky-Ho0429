@@ -8,7 +8,7 @@ public class Sketch extends PApplet {
    */
   public void settings() {
 	//Sets Size Of Canvas
-    size(400, 400);
+    size(800, 800);
   }
 
   //Sets Up Inital Setup
@@ -49,7 +49,7 @@ public class Sketch extends PApplet {
    // Grass
    stroke(50, 170, 65);
    fill(50, 170, 65);
-   rect(0, (float)(height/1.02), width, (float)(height));
+   rect(0, (float)(height/1.03), width, (float)(height/1.03));
   }
   // define other methods down here.
 }
