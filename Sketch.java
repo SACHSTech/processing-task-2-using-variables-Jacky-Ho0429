@@ -49,7 +49,7 @@ public class Sketch extends PApplet {
    // Grass
    stroke(50, 170, 65);
    fill(50, 170, 65);
-   rect(0, height, width, height);
+   rect(0, (float)(height/1.02), width, (float)(height));
   }
   // define other methods down here.
 }
